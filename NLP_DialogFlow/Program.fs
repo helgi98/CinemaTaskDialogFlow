@@ -52,12 +52,24 @@ let handleIntent (intent: string, parameters: Dictionary<string, string>) =
     | "" -> printfn "Unknow intent"
     | unhandledIntent -> printfn "Intent %s is not currently supported" unhandledIntent
 
+let rec recursiveRead() =
+    printfn "Enter your input query: (Enter q to exit)"
+    let userInput = Console.ReadLine()
+    if (not(userInput.Equals("q"))) then
+        printfn "Processing query..."
+        let response = processQuery(userInput)
+        handleIntent(response.IntentName, response.Parameters)
+        printfn "_________________________________________________"
+        recursiveRead()
+
 [<EntryPoint>]
 let main argv =
-    let response = processQuery "Description Star wars"
-    
+    recursiveRead()
+
+    //Example of workflow
+    //let response = processQuery "Description Star wars"
     //printfn "%s" response.IntentName
-    handleIntent(response.IntentName, response.Parameters)
+    //handleIntent(response.IntentName, response.Parameters)
     
     
     0 
