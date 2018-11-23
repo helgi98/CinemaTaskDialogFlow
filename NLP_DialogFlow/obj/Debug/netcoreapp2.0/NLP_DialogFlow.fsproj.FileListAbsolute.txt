@@ -1,8 +1,0 @@
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\bin\Debug\netcoreapp2.0\NLP_DialogFlow.deps.json
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\bin\Debug\netcoreapp2.0\NLP_DialogFlow.runtimeconfig.json
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\bin\Debug\netcoreapp2.0\NLP_DialogFlow.runtimeconfig.dev.json
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\bin\Debug\netcoreapp2.0\NLP_DialogFlow.dll
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\bin\Debug\netcoreapp2.0\NLP_DialogFlow.pdb
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\obj\Debug\netcoreapp2.0\NLP_DialogFlow.fsprojAssemblyReference.cache
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\obj\Debug\netcoreapp2.0\NLP_DialogFlow.dll
-D:\4 курс\FP\git\CinemaTaskDialogFlow\NLP_DialogFlow\obj\Debug\netcoreapp2.0\NLP_DialogFlow.pdb
